@@ -39,22 +39,8 @@ Architecture
 
 The oracle system follows a sophisticated multi-tiered approach:
 
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Uniswap V4    │    │   Uniswap V3    │    │   Chainlink     │
-│   Price Feed    │    │   Price Feed    │    │   Price Feed    │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         └───────────────────────┼───────────────────────┘
-                                 │
-                    ┌─────────────────┐
-                    │   TWAP Oracle   │
-                    │   Aggregator    │
-                    └─────────────────┘
-                                 │
-                    ┌─────────────────┐
-                    │  MEV-Resistant  │
-                    │      AMM        │
-                    └─────────────────┘
+<img width="527" height="310" alt="Screenshot 2026-01-16 at 17 52 09" src="https://github.com/user-attachments/assets/391ae5f4-5743-426c-a8d0-5b3f9be6c209" />
+
 
 Development Challenges & Testing Strategy
 As noted in the source code comments:
